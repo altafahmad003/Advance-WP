@@ -1,0 +1,18 @@
+<?php
+
+function table_of($n)  
+{
+$i=1;         
+echo "Table of {$n}"; 
+echo"     ";
+while($i<=10){    
+  echo"     ";
+  $result =$i*$n;        
+    echo "$n * $i = $result";        
+    $i++;                                   
+    }
+}
+table_of(2);                                  
+                                  
+
+?>
